@@ -1,0 +1,26 @@
+@import url('font-family.css');
+body 
+{
+    background-color: lightslategray;
+}
+div 
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    padding: 20px;
+}
+div h1 
+{
+    color: red;
+    font-size: 75px !important;
+    font-family: misrelly;
+}
+div p 
+{
+    font-family: misrelly !important;
+    font-size: 45px;
+
+}
