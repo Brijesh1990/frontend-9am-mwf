@@ -1,0 +1,98 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+}
+#portfolio-header
+{
+width: 100%;
+height: auto;
+padding: 2px;
+background-color: #2c3e50 !important;    
+display: flex;
+flex-direction: row;
+position: sticky;
+top: 0;
+z-index: 1;
+
+}
+.logo 
+{
+width: 50%;
+height: auto;
+color: white;
+font-size: 20px;
+letter-spacing: 1px;
+margin-left: 5%;
+text-transform: uppercase;
+/* animation: 2s bounce alternate; */
+/* animation: 2s heartBeat alternate; */
+animation: 2s fadeInLeft alternate;
+}
+.logo h1 
+{
+animation: 6s fadeIn infinite;
+}
+.navbar 
+{
+width: 50%;
+height: auto;
+animation: 2s fadeInLeft alternate;
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 10px 15px;    
+}
+.navbar a 
+{
+color: white;
+font-size: 20px;
+text-decoration: none;
+list-style-type: none;
+text-transform: uppercase;
+}
+
+#portfolio-slider 
+{
+width: 100%;
+height: auto;
+padding: 20px;
+background-color: #18bc9c;    
+}
+.slider img 
+{
+width: 30%;
+height: auto;
+margin: auto;
+margin-left: 35%;
+margin-top: 5%;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt
+{
+width: 50%;
+height: auto;
+margin: auto;
+text-align: center;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt h1 
+{
+font-size: 80px;
+color: white;
+line-height: 2px;
+}
+.slider-txt hr 
+{
+width: 50%;
+height: auto;
+border: solid 4px white;
+}
+.slider-txt p 
+{
+font-size: 20px;
+color: white;    
+}
