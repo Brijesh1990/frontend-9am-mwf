@@ -79,7 +79,7 @@ margin: auto;
 text-align: center;
 animation: 2s fadeInLeft alternate;
 }
-.slider-txt h1 
+.slider-txt h1
 {
 font-size: 80px;
 color: white;
@@ -95,4 +95,136 @@ border: solid 4px white;
 {
 font-size: 20px;
 color: white;    
+}
+#portfolio-content
+{
+width: 100%;
+height: auto;    
+}
+.portfolio h1,
+.photoshop h1,
+.illustration h1,
+.contact-us h1,
+.download-cv h1
+{
+font-size: 60px;
+color: #2c3e50;
+text-align: center;
+line-height: 0;
+}
+.portfolio hr,
+.photoshop hr,
+.illustration hr, 
+.about-us-txt hr,
+.contact-us hr, 
+.download-cv hr 
+{ 
+width: 30%;
+border: solid 3px #2c3e50;
+line-height: 16;
+}
+.portfolio img 
+{
+width: 90%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+
+}
+.photoshop img,.illustration img 
+{
+width: 30%;
+height: auto;
+margin: auto;
+margin-left: 2%;
+}
+.about-us
+{
+width: 100%;
+height: auto;
+padding: 20px;
+background-color: #18bc9c;
+margin-top: 3%;
+}
+.about-us-txt p
+
+{
+width: 60%;
+height: auto;
+margin: auto;
+color: white;
+font-size: 25px;
+text-align: justify;
+}
+.about-us-txt h1, 
+.technical-skills h1 
+{
+
+font-size: 80px;
+text-align: center;
+line-height: 0;
+color: white;
+}
+.about-us-txt hr,
+.technical-skills hr 
+{
+width: 30%;
+border: solid 3px white;
+line-height: 16;   
+}
+.about-us-txt span 
+{
+color: #2c3e50;
+text-decoration: underline;
+font-size: 28px;
+}
+.contact-us form 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.contact-us input,textarea 
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 2%;
+}
+.contact-us input[type="submit"]
+{
+    width: 200px;
+    height: auto;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.contact-us input[type="reset"]
+{
+    width: 200px;
+    height: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.download-cv p 
+{
+    text-align: center;
+    font-size: 35px;
+}
+.dwn-cv
+{
+ font-size: 35px !important;
+ animation: 2s fadeIn infinite !important;   
+}
+
+#footer 
+{
+width: 100%;
+height: auto;
+background-color: #2c3e50;
+padding: 25px;
+margin-top: 3%;    
 }
