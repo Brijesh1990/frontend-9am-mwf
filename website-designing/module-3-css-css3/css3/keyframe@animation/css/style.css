@@ -1,0 +1,94 @@
+/* body
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: lightgray;    
+-webkit-animation: alternate 5s anim;
+-moz-animation: alternate 5s anim;
+-i-animation: alternate 5s anim;
+-o-animation: alternate 5s anim;
+animation: alternate 5s anim;
+} */
+
+
+body
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: lightgray;    
+-webkit-animation: infinite 5s anim;
+-moz-animation: infinite 5s anim;
+-i-animation: infinite 5s anim;
+-o-animation: infinite 5s anim;
+animation: infinite 5s anim;
+}
+/* @keyframes identifier {
+    
+} */
+
+/* @keyframes anim {
+
+    from 
+    {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    }
+    to 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: chartreuse;
+    }
+    
+} */
+
+
+
+
+@keyframes anim {
+
+    0% 
+    {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    }
+    10% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: chartreuse;
+    }
+    20% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color:red;
+    }
+    30% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: antiquewhite;
+    }
+
+    40% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: yellow;
+    }
+
+    50% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color:blue;
+    }
+    
+}

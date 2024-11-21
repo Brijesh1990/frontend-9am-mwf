@@ -1,0 +1,86 @@
+body
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background: url('https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_1280.jpg') no-repeat;
+background-size: 100% 768px;    
+-webkit-animation-delay: 5s !important;
+-moz-animation-delay: 5s !important;
+-o-animation-delay: 5s !important;
+animation-delay: 5s !important;
+-webkit-animation: infinite 5s anim;
+-moz-animation: infinite 5s anim;
+-i-animation: infinite 5s anim;
+-o-animation: infinite 5s anim;
+animation: infinite 5s anim;
+}
+/* @keyframes identifier {
+    
+} */
+
+@keyframes anim {
+
+    from 
+    {
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/036/226/872/non_2x/ai-generated-nature-landscapes-background-free-photo.jpg') no-repeat;
+    background-size: 100% 768px;  
+    }
+    to 
+    {
+     margin: 0;
+     padding: 0;
+     background: url('https://asset.gecdesigns.com/img/wallpapers/aesthetic-landscape-reflection-background-hd-wallpaper-sr10012410-1706502139247-cover.webp') no-repeat;
+     background-size: 100% 768px;  
+    }
+    
+}
+
+
+
+/* 
+@keyframes anim {
+
+    0% 
+    {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    }
+    10% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: chartreuse;
+    }
+    20% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color:red;
+    }
+    30% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: antiquewhite;
+    }
+
+    40% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color: yellow;
+    }
+
+    50% 
+    {
+     margin: 0;
+     padding: 0;
+     background-color:blue;
+    }
+    
+} */
