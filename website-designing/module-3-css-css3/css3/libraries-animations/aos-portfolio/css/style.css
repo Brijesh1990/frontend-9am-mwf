@@ -1,0 +1,840 @@
+body 
+{
+margin: 0 !important;
+padding: 0 !important;
+overflow-x: hidden;
+box-sizing: border-box;    
+}
+#portfolio-header
+{
+width: 100%;
+height: auto;
+padding: 2px;
+background-color: #2c3e50 !important;    
+display: flex;
+flex-direction: row;
+position: sticky;
+top: 0;
+z-index: 1;
+
+}
+.logo 
+{
+width: 50%;
+height: auto;
+color: white;
+font-size: 20px;
+letter-spacing: 1px;
+margin-left: 5%;
+text-transform: uppercase;
+/* animation: 2s bounce alternate; */
+/* animation: 2s heartBeat alternate; */
+animation: 2s fadeInLeft alternate;
+}
+.logo h1 
+{
+animation: 6s fadeIn infinite;
+}
+.navbar 
+{
+width: 50%;
+height: auto;
+animation: 2s fadeInLeft alternate;
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 10px 15px;    
+}
+.navbar a 
+{
+color: white;
+font-size: 20px;
+text-decoration: none;
+list-style-type: none;
+text-transform: uppercase;
+}
+
+#portfolio-slider 
+{
+width: 100%;
+height: auto;
+padding: 20px;
+background-color: #18bc9c;    
+}
+.slider img 
+{
+width: 30%;
+height: auto;
+margin: auto;
+margin-left: 35%;
+margin-top: 5%;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt
+{
+width: 50%;
+height: auto;
+margin: auto;
+text-align: center;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt h1
+{
+font-size: 80px;
+color: white;
+line-height: 2px;
+}
+.slider-txt hr 
+{
+width: 50%;
+height: auto;
+border: solid 4px white;
+}
+.slider-txt p 
+{
+font-size: 20px;
+color: white;    
+}
+
+#portfolio-content
+{
+width: 100%;
+height: auto;    
+}
+.portfolio h1,
+.photoshop h1,
+.illustration h1,
+.contact-us h1,
+.download-cv h1
+{
+font-size: 60px;
+color: #2c3e50;
+text-align: center;
+line-height: 0;
+}
+.portfolio hr,
+.photoshop hr,
+.illustration hr, 
+.about-us-txt hr,
+.contact-us hr, 
+.download-cv hr 
+{ 
+width: 30%;
+border: solid 3px #2c3e50;
+line-height: 16;
+}
+.portfolio img 
+{
+width: 90%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+
+}
+.photoshop img,.illustration img 
+{
+width: 30%;
+height: auto;
+margin: auto;
+margin-left: 2%;
+}
+.about-us
+{
+width: 100%;
+height: auto;
+padding: 20px;
+background-color: #18bc9c;
+margin-top: 3%;
+}
+.about-us-txt p
+
+{
+width: 60%;
+height: auto;
+margin: auto;
+color: white;
+font-size: 25px;
+text-align: justify;
+}
+.about-us-txt h1, 
+.technical-skills h1 
+{
+
+font-size: 80px;
+text-align: center;
+line-height: 0;
+color: white;
+}
+.about-us-txt hr,
+.technical-skills hr 
+{
+width: 30%;
+border: solid 3px white;
+line-height: 16;   
+}
+.about-us-txt span 
+{
+color: #2c3e50;
+text-decoration: underline;
+font-size: 28px;
+}
+.contact-us form 
+{
+width: 50%;
+height: auto;
+margin: auto;
+}
+.contact-us input,textarea 
+{
+width: 100%;
+height: auto;
+padding: 10px;
+margin-top: 2%;
+}
+.contact-us input[type="submit"]
+{
+width: 200px;
+height: auto;
+background-color: #2c3e50;
+color: white;
+border: none;
+font-size: 20px;
+}
+.contact-us input[type="reset"]
+{
+width: 200px;
+height: auto;
+background-color: red;
+color: white;
+border: none;
+font-size: 20px;
+}
+.download-cv p 
+{
+text-align: center;
+font-size: 35px;
+}
+.dwn-cv
+{
+font-size: 35px !important;
+animation: 2s fadeIn infinite !important;   
+}
+
+#footer 
+{
+width: 100%;
+height: auto;
+background-color: #2c3e50;
+padding: 25px;
+margin-top: 3%;    
+color: white;
+text-align: center;
+}
+
+/* applied media query for make a responsive webpage */
+/* media query for mobile breakpoints */
+@media only screen and (max-width:580px) {
+body 
+{
+margin: 0 !important;
+padding: 0 !important;
+overflow-x: hidden !important;
+box-sizing: border-box !important;
+/* background-color: lightgray;     */
+}
+#portfolio-header
+{
+width: 100% !important;
+height: auto !important;
+padding: 2px !important;
+background-color: #2c3e50 !important;    
+display: flex !important;
+flex-direction: column !important;
+position: sticky !important;
+top: 0 !important;
+z-index: 1 !important;
+
+}
+.logo 
+{
+width: 100% !important;
+height: auto !important;
+color: white !important;
+font-size: 22px !important;
+letter-spacing: 1px !important;
+text-transform: uppercase !important;
+/* animation: 2s bounce alternate; */
+/* animation: 2s heartBeat alternate; */
+animation: 2s fadeInLeft alternate !important;
+text-align: center !important;
+}
+.logo h1 
+{
+animation: 6s fadeIn infinite !important;
+}
+.navbar 
+{
+width: 100% !important;
+height: auto !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.navbar ul li 
+{
+display: inline-block !important;
+padding: 5px 15px !important;    
+}
+.navbar a 
+{
+color: white !important;
+font-size: 16px !important;
+text-decoration: none !important;
+list-style-type: none !important;
+text-transform: uppercase !important;
+}    
+
+#portfolio-slider 
+{
+width: 100% !important;
+height: auto !important;
+padding: 20px !important;
+background-color: #18bc9c !important;    
+}
+.slider img 
+{
+width: 50% !important;
+height: auto !important;
+margin: auto !important;
+margin-left: 25% !important;
+margin-top: 5% !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.slider-txt
+{
+width: 100% !important;
+height: auto !important;
+margin: auto !important;
+text-align: center !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.slider-txt h1
+{
+font-size:60px !important;
+color: white !important;
+line-height: 2px !important;
+}
+.slider-txt hr 
+{
+width: 50% !important;
+height: auto !important;
+border: solid 4px white !important;
+}
+.slider-txt p 
+{
+font-size:16px !important;
+color: white !important;    
+}
+
+#portfolio-content
+{
+width: 100% !important;
+height: auto !important;    
+}
+.portfolio h1,
+.photoshop h1,
+.illustration h1,
+.contact-us h1
+{
+font-size: 50px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.portfolio hr,
+.photoshop hr,
+.illustration hr, 
+.about-us-txt hr,
+.contact-us hr, 
+.download-cv hr 
+{ 
+width: 40% !important;
+border: solid 3px #2c3e50 !important;
+line-height: 16 !important;
+}
+.download-cv h1
+{
+font-size: 40px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.download-cv p 
+{
+font-size: 18px !important;
+}
+.about-us-txt h1, 
+.technical-skills h1 
+{
+
+font-size: 60px !important;
+text-align: center !important;
+line-height: 0 !important;
+color: white !important;
+}
+.about-us-txt hr,
+.technical-skills hr 
+{
+width: 40% !important;
+border: solid 3px white !important;
+line-height: 16 !important;   
+}
+.contact-us form 
+{
+width: 70% !important;
+height: auto !important;
+margin: auto !important;
+}
+.contact-us input,textarea 
+{
+width: 100% !important;
+height: auto !important;
+padding: 10px !important;
+margin-top: 2% !important;
+}
+.contact-us input[type="submit"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+.contact-us input[type="reset"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: red !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+
+#footer 
+{
+width: 100% !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+padding: 25px !important;
+margin-top: 3% !important;    
+color: white !important;
+text-align: center !important;
+font-size: 20px !important;
+}
+
+}
+/* media query for tablet breakpoints */
+@media only screen and (max-width:767px)
+{
+body 
+{
+margin: 0 !important;
+padding: 0 !important;
+overflow-x: hidden !important;
+box-sizing: border-box !important;
+/* background-color: lightgray;     */
+}
+#portfolio-header
+{
+width: 100% !important;
+height: auto !important;
+padding: 2px !important;
+background-color: #2c3e50 !important;    
+display: flex !important;
+flex-direction: column !important;
+position: sticky !important;
+top: 0 !important;
+z-index: 1 !important;
+
+}
+.logo 
+{
+width: 100% !important;
+height: auto !important;
+color: white !important;
+font-size: 22px !important;
+letter-spacing: 1px !important;
+text-transform: uppercase;
+/* animation: 2s bounce alternate; */
+/* animation: 2s heartBeat alternate; */
+animation: 2s fadeInLeft alternate !important;
+text-align: center !important;
+}
+.logo h1 
+{
+animation: 6s fadeIn infinite !important;
+}
+.navbar 
+{
+width: 100% !important;
+height: auto !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.navbar ul li 
+{
+display: inline-block !important;
+padding: 5px 10px !important;    
+}
+.navbar a 
+{
+color: white !important;
+font-size: 16px !important;
+text-decoration: none !important;
+list-style-type: none !important;
+text-transform: uppercase !important;
+}    
+
+#portfolio-slider 
+{
+width: 100% !important;
+height: auto !important;
+padding: 20px !important;
+background-color: #18bc9c !important;    
+}
+.slider img 
+{
+width: 50% !important;
+height: auto !important;
+margin: auto !important;
+margin-left: 25% !important;
+margin-top: 5% !important;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt
+{
+width: 100% !important;
+height: auto !important;
+margin: auto !important;
+text-align: center !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.slider-txt h1
+{
+font-size:60px !important;
+color: white !important;
+line-height: 2px !important;
+}
+.slider-txt hr 
+{
+width: 50% !important;
+height: auto !important;
+border: solid 4px white !important;
+}
+.slider-txt p 
+{
+font-size:16px !important;
+color: white !important;    
+}
+
+#portfolio-content
+{
+width: 100% !important;
+height: auto !important;    
+}
+.portfolio h1,
+.photoshop h1,
+.illustration h1,
+.contact-us h1
+{
+font-size: 50px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.portfolio hr,
+.photoshop hr,
+.illustration hr, 
+.about-us-txt hr,
+.contact-us hr, 
+.download-cv hr 
+{ 
+width: 40% !important;
+border: solid 3px #2c3e50 !important;
+line-height: 16 !important;
+}
+.download-cv h1
+{
+font-size: 40px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.download-cv p 
+{
+font-size: 18px !important;
+}
+.about-us-txt h1, 
+.technical-skills h1 
+{
+
+font-size: 60px !important;
+text-align: center !important;
+line-height: 0 !important;
+color: white !important;
+}
+.about-us-txt hr,
+.technical-skills hr 
+{
+width: 40% !important;
+border: solid 3px white !important;
+line-height: 16 !important;   
+}
+.contact-us form 
+{
+width: 85% !important;
+height: auto !important;
+margin: auto !important;
+}
+.contact-us input,textarea 
+{
+width: 100% !important;
+height: auto !important;
+padding: 10px !important;
+margin-top: 2% !important;
+}
+.contact-us input[type="submit"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+.contact-us input[type="reset"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: red !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+
+#footer 
+{
+width: 100% !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+padding: 25px !important;
+margin-top: 3% !important;    
+color: white !important;
+text-align: center !important;
+font-size: 20px !important;
+}
+}
+/* media query for laptop breakpoints */
+@media only screen and (max-width:1024px)
+{
+body 
+{
+margin: 0 !important;
+padding: 0 !important;
+overflow-x: hidden !important;
+box-sizing: border-box !important;
+/* background-color: lightgray;     */
+}
+#portfolio-header
+{
+width: 100% !important;
+height: auto !important;
+padding: 2px !important;
+background-color: #2c3e50 !important;    
+display: flex !important;
+flex-direction: column !important;
+position: sticky !important;
+top: 0 !important;
+z-index: 1 !important;
+
+}
+.logo 
+{
+width: 100% !important;
+height: auto !important;
+color: white !important;
+font-size: 22px !important;
+letter-spacing: 1px !important;
+text-transform: uppercase;
+/* animation: 2s bounce alternate; */
+/* animation: 2s heartBeat alternate; */
+animation: 2s fadeInLeft alternate !important;
+text-align: center !important;
+}
+.logo h1 
+{
+animation: 6s fadeIn infinite !important;
+}
+.navbar 
+{
+width: 100% !important;
+height: auto !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.navbar ul li 
+{
+display: inline-block !important;
+padding: 5px 10px !important;    
+}
+.navbar a 
+{
+color: white !important;
+font-size: 16px !important;
+text-decoration: none !important;
+list-style-type: none !important;
+text-transform: uppercase !important;
+}    
+
+#portfolio-slider 
+{
+width: 100% !important;
+height: auto !important;
+padding: 20px !important;
+background-color: #18bc9c !important;    
+}
+.slider img 
+{
+width: 50% !important;
+height: auto !important;
+margin: auto !important;
+margin-left: 25% !important;
+margin-top: 5% !important;
+animation: 2s fadeInLeft alternate;
+}
+.slider-txt
+{
+width: 100% !important;
+height: auto !important;
+margin: auto !important;
+text-align: center !important;
+animation: 2s fadeInLeft alternate !important;
+}
+.slider-txt h1
+{
+font-size:60px !important;
+color: white !important;
+line-height: 2px !important;
+}
+.slider-txt hr 
+{
+width: 50% !important;
+height: auto !important;
+border: solid 4px white !important;
+}
+.slider-txt p 
+{
+font-size:16px !important;
+color: white !important;    
+}
+
+#portfolio-content
+{
+width: 100% !important;
+height: auto !important;    
+}
+.portfolio h1,
+.photoshop h1,
+.illustration h1,
+.contact-us h1
+{
+font-size: 50px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.portfolio hr,
+.photoshop hr,
+.illustration hr, 
+.about-us-txt hr,
+.contact-us hr, 
+.download-cv hr 
+{ 
+width: 40% !important;
+border: solid 3px #2c3e50 !important;
+line-height: 16 !important;
+}
+.download-cv h1
+{
+font-size: 40px !important;
+color: #2c3e50 !important;
+text-align: center !important;
+line-height: 0 !important;
+}
+.download-cv p 
+{
+font-size: 18px !important;
+}
+.about-us-txt h1, 
+.technical-skills h1 
+{
+
+font-size: 60px !important;
+text-align: center !important;
+line-height: 0 !important;
+color: white !important;
+}
+.about-us-txt hr,
+.technical-skills hr 
+{
+width: 40% !important;
+border: solid 3px white !important;
+line-height: 16 !important;   
+}
+.contact-us form 
+{
+width: 85% !important;
+height: auto !important;
+margin: auto !important;
+}
+.contact-us input,textarea 
+{
+width: 100% !important;
+height: auto !important;
+padding: 10px !important;
+margin-top: 2% !important;
+}
+.contact-us input[type="submit"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+.contact-us input[type="reset"]
+{
+width: 200px !important;
+height: auto !important;
+background-color: red !important;
+color: white !important;
+border: none !important;
+font-size: 20px !important;
+}
+
+#footer 
+{
+width: 100% !important;
+height: auto !important;
+background-color: #2c3e50 !important;
+padding: 25px !important;
+margin-top: 3% !important;    
+color: white !important;
+text-align: center !important;
+font-size: 20px !important;
+}
+}
+/* media query for large device breakpoints */
+@media only screen and (max-width:1244px)
+{
+/* already make a style.css  */
+}

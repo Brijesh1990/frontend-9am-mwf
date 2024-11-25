@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>filter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .content1,
+        .content2,
+        .content3,
+        .content4,
+        .content5
+        {
+            width: 20%;
+            height: auto;
+            margin: auto;
+            margin-top: 2%;
+
+        } 
+        .content1 img,
+        .content2 img,
+        .content3 img,
+        .content4 img,
+        .content5 img  
+        {
+            width: 100%;
+            height: auto;
+
+        }
+        .content1 img:hover 
+        {
+            -webkit-filter: brightness(20%);
+            -moz-filter: brightness(20%);
+            -i-filter: brightness(20%);
+            filter: brightness(20%);
+            transition: 0.5s ease all;
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+        .content2 img:hover 
+        {
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -i-filter: grayscale(100%);
+            filter: grayscale(100%);
+            transition: 0.5s ease all;
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+        .content3 img:hover 
+        {
+            -webkit-filter: contrast(40%);
+            -moz-filter: contrast(40%);
+            -i-filter: contrast(40%);
+            filter: contrast(40%);
+            transition: 0.5s ease all;
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+        .content4 img:hover 
+        {
+            -webkit-filter: opacity(0.2);
+            -moz-filter: opacity(0.2);
+            -i-filter: opacity(0.2);
+            filter: opacity(0.2);
+            transition: 0.5s ease all;
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+        .content5 img:hover 
+        {
+            -webkit-filter: opacity(0.2);
+            -moz-filter: opacity(0.2);
+            -i-filter: opacity(0.2);
+            filter: blur(5px);
+            transition: 0.5s ease all;
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="content1">
+        <img src="images/yimage.jpg" alt="brijesh" title="click to applied filters" />
+    </div>
+    
+
+    <div class="content2">
+        <img src="images/yimage.jpg" alt="brijesh" title="click to applied filters" />
+    </div>
+
+    
+
+    <div class="content3">
+        <img src="images/yimage.jpg" alt="brijesh" title="click to applied filters" />
+    </div>
+    
+    
+    <div class="content4">
+        <img src="images/yimage.jpg" alt="brijesh" title="click to applied filters" />
+    </div>
+    
+    
+    <div class="content5">
+        <img src="images/yimage.jpg" alt="brijesh" title="click to applied filters" />
+    </div>
+    
+</body>
+</html>
