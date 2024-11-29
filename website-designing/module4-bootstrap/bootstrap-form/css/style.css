@@ -1,0 +1,14 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.form-control
+{
+    border: 0;
+    background-color: aliceblue;
+    border-bottom: solid 2px black;
+}
