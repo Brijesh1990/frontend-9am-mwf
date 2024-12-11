@@ -1,3 +1,7 @@
+/* samples of portfolio */
+/* https://p.w3layouts.com/demos_new/template_demo/29-02-2020/mix-liberty-demo_Free/540154905/web/index.html?_gl=1*c4zidh*_ga*MTg1NTEyNjI0LjE3MzM0NTY5OTk.*_ga_EGV5GTJEP5*MTczMzQ1Njk5OS4xLjEuMTczMzQ1NzAxNy4wLjAuMA..*_ga_9HSZ46TKMQ*MTczMzQ1Njk5OS4xLjEuMTczMzQ1NzAxOC40MS4wLjA.*_ga_FFZF56TTWE*MTczMzQ1Njk5OS4xLjEuMTczMzQ1NzAxOC4wLjAuMA.. */
+
+
 @import url('fonte-face.css');
 body 
 {
@@ -61,6 +65,50 @@ animation: 2s fadeIn infinite;
 width: 100%;
 height: auto;    
 }
+.portfolio-strategy
+{
+width: 100%;
+height: auto;
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)), url('../images/strategy.jpg');
+background-size: cover;
+background-attachment: fixed;    
+background-position: center;
+}
+.text-strategy  h3,p 
+{
+    color: white !important;
+}
+.services-block1
+{
+background: url('../images/proff.jpg') no-repeat;    
+background-size: cover;
+background-position: center;
+}
+.services-block2
+{
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)), url('../images/strategy.jpg');
+background-size: cover;
+background-attachment: fixed;    
+background-position: center;
+}
+
+.bi-stars,
+.bi-globe,
+.bi-magic
+{
+width: 50px !important;
+height: 50px !important;
+font-size: 18px !important;
+padding: 15px !important;
+
+}
+.text-strategy:hover
+{
+background-color: rgba(60,0,0,1);
+color: black !important;    
+transition: 0.8s ease all;
+border-radius: 5px;
+}
 
 @media only screen and (max-width:480px)
 {
@@ -99,5 +147,9 @@ width: 100%;
 height: auto;    
 margin: 0 !important;
 margin-top: 0px !important;
+}
+.services-block1
+{
+display: none !important;
 }
 }
