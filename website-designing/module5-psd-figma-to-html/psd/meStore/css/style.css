@@ -1,0 +1,177 @@
+@import url(font-face.css);
+:root 
+{
+--bg-pink:#ad2355;
+--bg-gray:#d8d8d8;
+--bg-white:#ffffff;
+--bg-lightgray:#444444;
+--text-pink:#ad2355;
+--text-gray:#d8d8d8;
+--text-white:#ffffff;
+--text-lightgray:#444444;
+}
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;    
+}
+body 
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+overflow-x: hidden;
+background: url('../images/background.png') no-repeat;
+background-size: cover;
+background-position: center;    
+}
+#mestore-header 
+{
+width: 100%;
+height: auto;
+background-color: var(--bg-pink);
+font-family: monserrate-bold;   
+margin: 0;
+padding: 0;
+margin-top: 0 !important;
+}
+#mestore-navigation
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-gray);
+    font-family: monserrate-regular;    
+margin-top: 4.1%;   
+}
+.navbar 
+{
+width: 100%;
+height: auto;   
+margin: 0;
+padding: 0;
+top: 0 !important;  
+}
+.navbar-brand
+{
+color: var(--text-white);
+font-family: monserrate-bold;
+font-size: 30px;    
+color: var(--text-lightgray);
+}
+
+.navbar-link li
+{
+display: inline-block;
+padding: 0px 25px;
+text-decoration: none;
+list-style-type: none;
+
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;   
+    font-family: monserrate-regular;
+    color: var(--bg-lightgray);
+}
+#me-store-banner
+{
+width: 100%;
+height: 600px;
+background: url('../images/banner.png') no-repeat;
+background-size: cover;
+background-position: center;    
+position: relative;
+}
+.banner-text 
+{
+width: 60%;
+height: auto;
+margin: auto;
+margin-top: 10%;
+margin-left: 5%;  
+position: absolute;
+text-align: center;
+}
+.banner-text h1 
+{
+text-transform: uppercase !important;
+font-size: 95px !important;      
+font-weight: bolder;
+line-height: 0.8;
+}
+.banner-text .carnival 
+{
+text-transform: uppercase !important;
+font-size: 105px !important;      
+font-weight: bolder;
+line-height: 0.8;
+}
+.banner-text .space 
+{
+letter-spacing: 65px;
+font-size: 45px;
+font-weight: bolder;   
+}
+#me-store-content
+{
+width: 100%;
+height: 980px;
+position: relative;
+padding: 10px;    
+}
+.free-shipping 
+{
+margin-left: 7% !important;    
+background-color: white;
+margin-top: -5% !important;
+}
+.free-shipping-items
+{
+margin-top: -7% !important;   
+margin-left: 7% !important; 
+}
+.bi-airplane,
+.bi-currency-rupee,
+.bi-info-lg
+{
+width: 65px !important;
+height: 65px !important;    
+border-radius: 50%;
+padding: 25px;
+font-size: 25px;
+}
+
+.mestore-feature
+{
+background-color: var(--bg-gray) !important;    
+padding: 75px !important;
+z-index: 10 !important;
+}
+.me-store-sale
+{
+width: 100%;
+height: 720px;    
+margin-top: -3%;
+z-index: 10 !important;
+position: relative;
+}
+.me-store-brand
+{
+background-color:#eeeeee !important;    
+padding: 75px !important;  
+width: 100%;
+height: 200px; 
+margin-top: -3%;
+z-index: 10 !important;
+
+}
+
+#mestore-footer
+{
+width: 100%;
+height: auto;
+padding: 150px;
+background-color: rgba(155,0,0,0.4);    
+}

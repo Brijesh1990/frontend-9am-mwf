@@ -187,12 +187,12 @@ height: auto !important;
 }
 .modal-dialog 
 {
-    max-width: 90% !important;
-    height: auto !important;
-    margin: auto;
+max-width: 90% !important;
+height: auto !important;
+margin: auto;
 }
 .account-bg
 {
-    display: none !important;
+display: none !important;
 }
 }
