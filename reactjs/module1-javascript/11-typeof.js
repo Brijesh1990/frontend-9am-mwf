@@ -5,6 +5,10 @@
 let a=10;
 var b=20;
 var c=10.45454554;
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+
 console.log(typeof(a));
 console.log(typeof(b));
 console.log(typeof(c));
