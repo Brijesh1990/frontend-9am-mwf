@@ -18,27 +18,56 @@
 // );
 
 
-//React js 19.0.0
-import React from "react";
-import { createRoot } from "react-dom/client";
-import { StrictMode } from "react";
-const root=createRoot(document.getElementById("demo"));
-// const nm="vinay";
-// let nm="vinay"
-// const a=10;
+// //React js 19.0.0
+// import React from "react";
+// import { createRoot } from "react-dom/client";
+// import { StrictMode } from "react";
+// const root=createRoot(document.getElementById("demo"));
+// // const nm="vinay";
+// // let nm="vinay"
+// // const a=10;
+// // const b=20;
+// // const c=a+b;
+
+// const a=parseInt("10"); //typeCasting rules
 // const b=20;
 // const c=a+b;
+// root.render(
 
-const a=parseInt("10"); //typeCasting rules
-const b=20;
-const c=a+b;
+//     <StrictMode>
+//      {/* <h1>Hey vinay</h1>
+//      <h3>Hey Heet</h3>         */}
+//      {/* <h1>Hi my name is :{nm}</h1> */}
+//      <h1>Additions of numbers is :{c}</h1>
+//     </StrictMode>
+
+// )
+
+
+
+// components re-usables
+// import React, { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
+// import App from "./components/App";
+// const root=createRoot(document.getElementById("demo"));
+// root.render(
+//     <StrictMode>
+//     {/* components re-usability */}
+//     <App />
+//     </StrictMode>
+// )
+
+
+
+// create a simple layout webpages 
+import React, { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import Layout from "./LayoutApp";
+import './assets/css/style.css'
+const root=createRoot(document.getElementById("demo"));
 root.render(
-
     <StrictMode>
-     {/* <h1>Hey vinay</h1>
-     <h3>Hey Heet</h3>         */}
-     {/* <h1>Hi my name is :{nm}</h1> */}
-     <h1>Additions of numbers is :{c}</h1>
+    {/* used components */}
+    <Layout />
     </StrictMode>
-
 )
