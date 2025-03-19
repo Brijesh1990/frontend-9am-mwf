@@ -1,0 +1,62 @@
+body 
+{
+margin: 0;
+padding: 0;
+background: url('https://static.vecteezy.com/system/resources/thumbnails/040/293/889/small_2x/beautiful-sports-stadium-with-a-green-grass-field-shines-with-blue-spotlights-at-night-with-stars-sports-tournament-world-championship-photo.jpg') no-repeat;
+background-size: cover;
+background-position: center;    
+}
+.navbar 
+{
+position: sticky;
+top: 0;
+background-color: #08346e;    
+z-index: 5 !important;
+}
+.navbar ul 
+{
+margin-left: 40%;
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 8px 25px;
+text-decoration: none;
+
+}
+.navbar a 
+{
+text-decoration: none;
+list-style-type: none;
+color: white;    
+}
+.dropdown-menu
+{
+background-color: #08346e;    
+}
+.dropdown:hover .dropdown-menu
+{
+ display: block;   
+}
+
+@media only  screen and (max-width:580px)
+{
+    .navbar 
+    {
+    position: sticky;
+    top: 0;
+    background-color: #08346e;    
+    z-index: 5 !important;
+    }
+    .navbar ul 
+    {
+    margin-left: 0%;
+    }
+    .navbar ul li 
+    {
+    display:block;
+    padding: 10px 25px;
+    text-decoration: none;
+    
+    }    
+} 
