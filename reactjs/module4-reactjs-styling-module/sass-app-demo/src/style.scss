@@ -1,0 +1,57 @@
+$bg-success:green;
+$bg-primary:blue;
+$bg-warning:yellow;
+$bg-danger:red;
+$bg-secondary:lightgray;
+$bg-white:white;
+$margin-auto:auto;
+$padding-auto:auto;
+$text-success:green;
+$text-primary:blue;
+$text-warning:yellow;
+$text-danger:red;
+$text-secondary:lightgray;
+$text-white:white;
+$max-with:100%;
+$max-height:100%;
+$min-width:80%;
+$min-height:auto;
+$margin:0px;
+$padding:0px;
+$margin-top:5%;
+$padding-space:25px;
+body 
+{
+background-color: $bg-secondary;    
+}
+.app
+{
+ width: $min-width;
+ height: $min-height;
+ background-color: $bg-primary;
+ margin: $margin-auto;
+ padding: $padding-space;
+ margin-top: $margin-top;   
+ color: $text-white;
+}
+
+.app1
+{
+ width: $min-width;
+ height: $min-height;
+ background-color: $bg-success;
+ margin: $margin-auto;
+ padding: $padding-space;
+ margin-top: $margin-top;   
+ color: $text-white;
+}
+.app2
+{
+ width: $min-width;
+ height: $min-height;
+ background-color: $bg-warning;
+ margin: $margin-auto;
+ padding: $padding-space;
+ margin-top: $margin-top;   
+ color: $text-danger;
+}
