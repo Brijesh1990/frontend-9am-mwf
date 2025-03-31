@@ -3,9 +3,8 @@ import React from 'react'
 export default function Sidebar() {
   return (
     <>
-    <div className='h-100'>
+    <div className='h-100 fixed mt-32'>
      <img src='https://png.pngtree.com/png-clipart/20230823/original/pngtree-corporate-businessman-avatar-tie-associate-picture-image_8289503.png' alt='sidebar' className='w-16' />
-    
      <ul className='sidebar-links'>
         <li><a href=''>Dashboard</a></li>
         <li><a href=''>Manage Customer</a></li>

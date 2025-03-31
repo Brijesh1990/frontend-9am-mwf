@@ -1,8 +1,22 @@
 import React from 'react'
-
+import { Chart } from "react-google-charts";
 export default function Dashboard() {
+  // pie chart module b google
+  const data = [
+    ["Task", "Hours per Day"],
+    ["Work", 9],
+    ["Eat", 2],
+    ["Commute", 2],
+    ["Watch TV", 2],
+    ["Sleep", 7],
+  ];
+
+  const options = {
+    title: "My Daily Activities",
+  };
+
   return (
-    <div className='w-full p-5'>
+    <div className='w-full p-5 mt-32'>
     <h1 className='text-5xl ms-5'>Dashboard</h1>
     <hr className='border-1 w-55 ms-5' />
 
@@ -34,7 +48,15 @@ export default function Dashboard() {
      <b className='ms-5 text-white text-2xl'>Customers <span className='bg-red-500 p-2 rounded text-sm'>10</span></b>
      </div>   
     </div>  
-    
+
+    {/* charts */}
+    <Chart
+      chartType="PieChart"
+      data={data}
+      options={options}
+      width={"100%"}
+      height={"400px"}
+    />
     </div>
   )
 }
