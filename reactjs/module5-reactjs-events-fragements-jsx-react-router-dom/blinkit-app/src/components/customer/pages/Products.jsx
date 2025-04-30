@@ -5,6 +5,7 @@ import Header from '../Header';
 import Navigation from '../Navigation';
 import PageBanner from './PageBanner';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 export default function Products() {
 // used aos
 AOS.init();
@@ -24,12 +25,15 @@ return (
 <div className='products-app flex flex-row mt-10' data-aos="fade-up"
 data-aos-duration="2000">
 
-<div className='product-grid w-1/2'>
+<div className='product-grid w-1/2 shadow-2xl p-3'>
+<Link to="/products-details">
 <p className='text-center p-10'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKFWXB9GrlD0Kb2ced4afiyB2TCIGjeag1BQ&s' className='w-80 h-80 mx-auto'/></p>
 <p className='text-center text-3xl'>Flowers</p>
 <p className='text-center text-xl'>Rs.25-/ <del>35-/</del></p> 
 <p className='text-center text-3xl'><button type='button' className='bg-green-500 w-25 mt-5'><span className='bi bi-plus'></span></button></p>
+</Link>
 </div> 
+
 <div className='product-grid w-1/2'>
 <p className='text-center p-10'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQSyCzAO7rpCOqa35Rbv3b2HAnOuObw56diZUBaBQ28TZaF_zG3jJHl1kxwnFr4nTLfg&usqp=CAU' className='w-80 h-80 mx-auto'/></p>
 <p className='text-center text-3xl'>Flowers</p>
