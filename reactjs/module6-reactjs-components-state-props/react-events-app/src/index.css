@@ -1,0 +1,26 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  background-color: aliceblue;
+}
+input 
+{
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  text-align: right;
+  font-size: 35px !important;
+  border: none;
+}
+#btn 
+{
+  width: 23.8%;
+  padding: 10px 20px;
+  margin: 5px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
