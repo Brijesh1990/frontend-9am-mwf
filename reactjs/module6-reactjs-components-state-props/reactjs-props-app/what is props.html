@@ -1,0 +1,24 @@
+what is props in React js ? 
+props stands for properties.
+Props are used to pass data from one component to another in React. They allow you to make components reusable by providing different values for each instance of the component. Props are read-only and cannot be modified by the component that receives them.
+
+props is used to pass data from a parent component to a child component. The parent component can pass any type of data as props, including strings, numbers, arrays, objects, and even functions. The child component can then access these props and use them to render its content or perform actions.
+
+props can also be passed as arguments to functions.
+
+You can use props in functional components by accessing them through the `props` object, which is passed as an argument to the component function.
+
+props is immutable it means that can not change or modify data one components to another componets.You can use props in your React components to customize their behavior and appearance.
+
+props is pass data as attributes to components in JSX syntax. When you create a component, you can specify the props it should receive by using attributes in the JSX tag.
+
+You can then access these props within the component using the `props` object.
+
+
+
+For example, if you have a `Greeting` component that displays a message, you can pass a `name` prop to it like this:
+```jsx
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
