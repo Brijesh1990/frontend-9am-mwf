@@ -1,0 +1,15 @@
+.anim {
+  animation: 2s fadeIn infinite;
+}
+.sidebar-links li {
+  display: block;
+  padding: 18px 5px;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.sidebar-links a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
